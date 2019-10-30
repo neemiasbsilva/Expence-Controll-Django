@@ -8,6 +8,9 @@ class Category(models.Model):
     
     class Meta:
         verbose_name_plural = 'Categorys'
+        
+    def __str__(self):
+        return self.name
 
 class Transactions(models.Model):
     date = models.DateTimeField()
@@ -18,3 +21,6 @@ class Transactions(models.Model):
 
     class Meta:
         verbose_name_plural = 'Transactions'
+    
+    def __str__(self):
+        return self.description

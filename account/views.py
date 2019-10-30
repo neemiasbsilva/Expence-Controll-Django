@@ -4,6 +4,8 @@ import datetime
 
 
 def home(request):
-    now = datetime.datetime.now()
+    data = {}
+    data['transactions'] = ['t1', 't2', 't3']
+    data['now'] = datetime.datetime.now()
     # html = "<html><body>It is now %s.</body></html>" % now
-    return render(request, 'account/home.html')
+    return render(request, 'account/home.html', data)

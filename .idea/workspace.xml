@@ -2,7 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="1253f9e0-7531-473b-a15d-2b180cda8311" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/account/templates/account/listagem.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/account/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/account/views.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/db.sqlite3" beforeDir="false" afterPath="$PROJECT_DIR$/db.sqlite3" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/expense_control/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/expense_control/urls.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -70,6 +74,7 @@
       <updated>1572380198807</updated>
       <workItem from="1572380201771" duration="7577000" />
       <workItem from="1572441107768" duration="3965000" />
+      <workItem from="1572874968550" duration="1168000" />
     </task>
     <servers />
   </component>

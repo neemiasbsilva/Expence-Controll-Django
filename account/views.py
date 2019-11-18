@@ -21,7 +21,12 @@ def listagem(request):
 def new_transaction(request):
     # inicio ao processo
     data = {}
-    form = TransactionsForm()
+    form = TransactionsForm(request.POST or None)
+
+    if form.is_valid():
+        form.send()
+        return redirect('url_listagem')
+
     data['form'] = form
     return render(request, 'account/form.html', data)
 

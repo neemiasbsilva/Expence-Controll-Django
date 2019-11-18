@@ -2,11 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="1253f9e0-7531-473b-a15d-2b180cda8311" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/account/templates/account/listagem.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/account/templates/account/form.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/account/form.py" beforeDir="false" afterPath="$PROJECT_DIR$/account/form.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/account/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/account/views.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/db.sqlite3" beforeDir="false" afterPath="$PROJECT_DIR$/db.sqlite3" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/expense_control/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/expense_control/urls.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/manage.py" beforeDir="false" afterPath="$PROJECT_DIR$/manage.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -48,7 +49,7 @@
     <property name="node.js.path.for.package.tslint" value="project" />
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
-    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
+    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -74,7 +75,11 @@
       <updated>1572380198807</updated>
       <workItem from="1572380201771" duration="7577000" />
       <workItem from="1572441107768" duration="3965000" />
-      <workItem from="1572874968550" duration="1168000" />
+      <workItem from="1572874968550" duration="1309000" />
+      <workItem from="1573068143083" duration="577000" />
+      <workItem from="1573091155186" duration="653000" />
+      <workItem from="1573694956950" duration="106000" />
+      <workItem from="1574080405116" duration="3442000" />
     </task>
     <servers />
   </component>

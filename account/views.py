@@ -2,6 +2,7 @@ from django.shortcuts import render
 from django.http import HttpResponse
 from .models import Transactions
 import datetime
+from .form import TransactionsForm
 
 
 def home(request):
@@ -12,8 +13,15 @@ def home(request):
     return render(request, 'account/home.html', data)
 
 def listagem(request):
-    data = {}
-    data['transactions'] = Transactions.objects.all()
+    data = {'transactions': Transactions.objects.all()}
     # data['transactions'] = Transactions.objects.filter()
     # data['transactions'] = Transactions.objects.last()
     return render(request, 'account/listagem.html', data)
+
+def new_transaction(request):
+    # inicio ao processo
+    data = {}
+    form = TransactionsForm()
+    data['form'] = form
+    return render(request, 'account/form.html', data)
+
